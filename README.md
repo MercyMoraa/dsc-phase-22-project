@@ -1,4 +1,7 @@
 # King County House Sales
+![image](https://user-images.githubusercontent.com/111424284/208081779-77d60d3e-8e2b-4fcd-8125-0356bb5958fa.png)
+
+
 
 
 ## Business Background and Business Problem
