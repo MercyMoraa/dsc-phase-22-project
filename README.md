@@ -1,66 +1,43 @@
-# Phase 2 Project
+# King County House Sales
 
-Another module down--you're almost half way there!
 
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-2-project-campus/master/halfway-there.gif)
-
-All that remains in Phase 2 is to put our newfound data science skills to use with a large project! This project should take 20 to 30 hours to complete.
-
-## Project Overview
-
-For this project, you will use regression modeling to analyze house sales in a northwestern county.
+## Business Background and Business Problem
+The company/organization deals with providing housing facilities for a number of people in different areas.The company is seeking for ways in which it can provide better housing facilities for their clients. They are seeking to improve their efficiency ad effectiveness in delivering their facilities to their clients.The main reason the company is doing this is to improve their sales in general.
+As a result, we compare the worth of the various houses with the amenities each house has. This will help them predict the pricae values of houses and help home owners know what is expected of them, for their hoes to be sold easily.
 
 ### The Data
+This project uses the King County House Sales dataset, which can be found in  `kc_house_data.csv`. The dataset had a number of independent variables which had an impact on the price of the houses.
 
-This project uses the King County House Sales dataset, which can be found in  `kc_house_data.csv` in the data folder in this repo. The description of the column names can be found in `column_names.md` in the same folder. As with most real world data sets, the column names are not perfectly described, so you'll have to do some research or use your best judgment if you have questions about what the data means.
 
-It is up to you to decide what data from this dataset to use and how to use it. If you are feeling overwhelmed or behind, we recommend you ignore some or all of the following features:
+## Technologies Used
 
-* date
-* view
-* sqft_above
-* sqft_basement
-* yr_renovated
-* zipcode
-* lat
-* long
-* sqft_living15
-* sqft_lot15
+The technologes used in this process were:
+1. Data mining
+2. Data Understanding.
+3. Data Cleaning and Preparation
+4. Data Visualization
+5. Standardization using scaling
+6. Modelling
 
-### Business Problem
+Below are the results of the overall linear regression analysis:
 
-It is up to you to define a stakeholder and business problem appropriate to this dataset.
 
-If you are struggling to define a stakeholder, we recommend you complete a project for a real estate agency that helps homeowners buy and/or sell homes. A business problem you could focus on for this stakeholder is the need to provide advice to homeowners about how home renovations might increase the estimated value of their homes, and by what amount.
+#comparison between the training set and test set
+![train-test](https://user-images.githubusercontent.com/111424284/208080740-3a86f571-01c2-48b8-959e-4e5c41bd70ac.PNG)
 
-## Deliverables
+#Distribution of Residuals
 
-There are three deliverables for this project:
+![distribution rsidua](https://user-images.githubusercontent.com/111424284/208080336-7c40dbe2-616b-4919-be6e-96833a915cfc.png)
 
-* A **GitHub repository**
-* A **Jupyter Notebook**
-* A **non-technical presentation**
+QQ plot on Residuals
+![residual](https://user-images.githubusercontent.com/111424284/208080595-3adddd7c-7859-436e-bfe0-080e65884254.png)
 
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic for instructions on creating and submitting your deliverables. Refer to the rubric associated with this assignment for specifications describing high-quality deliverables.
 
-### Key Points
-
-* **Your deliverables should explicitly address each step of the data science process.** Refer to [the Data Science Process lesson](https://github.com/learn-co-curriculum/dsc-data-science-processes) from Topic 19 for more information about process models you can use.
-
-* **Your Jupyter Notebook should demonstrate an iterative approach to modeling.** This means that you begin with a basic model, evaluate it, and then provide justification for and proceed to a new model. After you finish refining your models, you should provide 1-3 paragraphs discussing your final model - this should include interpreting at least 3 important parameter estimates or statistics.
-
-* **Based on the results of your models, your notebook and presentation should discuss at least two features that have strong relationships with housing prices.**
-
-## Getting Started
-
-Start on this project by forking and cloning [this project repository](https://github.com/learn-co-curriculum/dsc-phase-2-project) to get a local copy of the dataset.
-
-We recommend structuring your project repository similar to the structure in [the Phase 1 Project Template](https://github.com/learn-co-curriculum/dsc-project-template). You can do this either by creating a new fork of that repository to work in or by building a new repository from scratch that mimics that structure.
-
-## Project Submission and Review
-
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic to learn how to submit your project and how it will be reviewed. Your project must pass review for you to progress to the next Phase.
-
-## Summary
-
-This project will give you a valuable opportunity to develop your data science skills using real-world data. The end-of-phase projects are a critical part of the program because they give you a chance to bring together all the skills you've learned, apply them to realistic projects for a business stakeholder, practice communication skills, and get feedback to help you improve. You've got this!
+##Conclusion and Recommendations
+The model presented above will be used for predictive purposes and anybother inferential need that may arise in the agency company. The model has ticked all the boxes needed for linear regression, In that it has satisfied the assumption of linearity, normality and homoscedascticity. The model has also satisfied the assumption that all observed variables are independent of each other.
+Through this model, we saw that as the amenities of the house increased, the prices increased. The squarefoots had a major impact to the price of the homes.
+From the conclusions above, we hughlighted the features that were more likely to influence the price of the house:
+1. The higher the footage of the home, the higher the price value for the house.
+2. The number of bedrooms. Houses with more number of bedrooms were more valued than those with ess
+3. The number of floors. Houses with2-3 floors showed a higher price value than those with less 
+4. The condition. Houses with better living conditions we
